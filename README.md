@@ -12,17 +12,17 @@ _composer require debug_
 # Asset
 composer require symfony/asset
 
-# WEBPACK ENCORE
+# Webpack encore
 _**composer require "encore:^1.8"**_
-Ensuite on install les dépendances avec Yarn
+Ensuite on install les dépendances avec 
 _**yarn install**_
 
 # Jquery 
 (Oui, je sais, c'est peut-être assez vielle comme librairier mais serviable pour ce projet)
 **yarn add jquery --dev**
 
-# BOOTSTRAP 
+# Bootstrap
 **yarn add bootstrap --dev**
 
+# Markdown de Knp(KnpMardownBundle 
 **composer require knplabs/knp-markdown-bundle** 
-Trouver-le ici https://github.com/KnpLabs/KnpMarkdownBundle
