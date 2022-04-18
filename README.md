@@ -1,10 +1,13 @@
 # small-cauldron
 Projet web SYMFONY permettant la mise en application step by step des détails du livre j'ai nommé "SymBook"
 
-Packages installés dans ce projet
+Une fois le projet cloné, tapez les commandes suivantes
+**composer install** et **symfony server:start**
+
+**Packages installés dans ce projet**
 
 # Le profileur et debegueur
- installons l'un de mes outils préférés absolus dans Symfony( on aura accès à deux nouvelles fonctions dump() et dd()
+ installons l'un de mes outils préférés absolus dans Symfony( on aura accès à deux nouvelles fonctions **dump()** et **dd()**
 _composer require profiler --dev_
 Il existe une autre bibliothèque que nous pouvons installer pour les outils de débogage
 _composer require debug_
@@ -18,11 +21,12 @@ Ensuite on install les dépendances avec
 _**yarn install**_
 
 # Jquery 
-(Oui, je sais, c'est peut-être assez vielle comme librairier mais serviable pour ce projet)
 **yarn add jquery --dev**
+(Oui, je sais, c'est peut-être assez vielle comme librairier mais serviable pour ce projet)
+
 
 # Bootstrap
 **yarn add bootstrap --dev**
 
-# Markdown de Knp(KnpMardownBundle 
+# KnpMardownBundle 
 **composer require knplabs/knp-markdown-bundle** 
