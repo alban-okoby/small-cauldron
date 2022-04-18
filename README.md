@@ -3,24 +3,25 @@ Projet web SYMFONY permettant la mise en application step by step des détails d
 
 Packages installés dans ce projet
 
-**#LE PROFILEUR et #DEBEGUEUR**
+# Le profileur et debegueur
  installons l'un de mes outils préférés absolus dans Symfony( on aura accès à deux nouvelles fonctions dump() et dd()
 _composer require profiler --dev_
 Il existe une autre bibliothèque que nous pouvons installer pour les outils de débogage
 _composer require debug_
 
-# ASSET
+# Asset
 composer require symfony/asset
 
-**#WEBPACK ENCORE_**
+# WEBPACK ENCORE
 _**composer require "encore:^1.8"**_
 Ensuite on install les dépendances avec Yarn
-_yarn install_
+_**yarn install**_
 
-**Jquery** (Oui, je sais, c'est assez vielle comme lib mais serviable pour ce petit projet)
-**yarn add jquery --dev
+# Jquery 
+(Oui, je sais, c'est peut-être assez vielle comme librairier mais serviable pour ce projet)
+**yarn add jquery --dev**
 
-**BOOTSTRAP** 
+# BOOTSTRAP 
 **yarn add bootstrap --dev**
 
 **composer require knplabs/knp-markdown-bundle** 
