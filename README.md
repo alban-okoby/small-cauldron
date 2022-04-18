@@ -9,7 +9,7 @@ _composer require profiler --dev_
 Il existe une autre bibliothèque que nous pouvons installer pour les outils de débogage
 _composer require debug_
 
-**#ASSET**
+# ASSET
 composer require symfony/asset
 
 **#WEBPACK ENCORE_**
